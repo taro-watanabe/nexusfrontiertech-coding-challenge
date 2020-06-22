@@ -54,7 +54,7 @@ The flow of the code goes as follows:
     2e. Post-Processing 
     2f. Write to a txt
     3. **Errors out if PDF, PNG, JPG, or JPEG not detected**
-    4. **OCR process for ordinary image file:
+    4. **OCR process for ordinary image file:**
     4a. Pre-processing
     4b. Making Guess with Tesseract
     4c. Post-Processing
