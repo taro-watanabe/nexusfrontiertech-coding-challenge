@@ -54,11 +54,12 @@ The flow of the code goes as follows:
     2e. Post-Processing 
     2f. Write to a txt
     3. **Errors out if PDF, PNG, JPG, or JPEG not detected**
-    4. **OCR process for ordinary image file:**
+    4. **OCR process for ordinary image file:
     4a. Pre-processing
-    ****4b. Making Guess with Tesseract
-    ****4c. Post-Processing
-    ****4d. Write to a txt
+    4b. Making Guess with Tesseract
+    4c. Post-Processing
+    4d. Wr
+    te to a txt
 
 # Pytesseract and TesseractOCR engine
 
@@ -114,9 +115,9 @@ The flow of the search was the following:
 4c. list the total scores of each attempts.
 5. Return the index and the pair of parameters with the highest score. (i.e. return the pair of parameters containing more "known" words.)
 
-for most of the samples i used, they have shown a consistent parameters around late 10s for `x` and late20s/early 30s for `c`.
+for most of the samples I used, they have shown a consistent parameters around late 10s for `x` and late20s/early 30s for `c`.
 
-There are great chances that the parameters for pre-processing or even methods of pre-processing are suboptimal. for example, the second sample file (82251504.png) has yielded a terrible score overall. There are definitely ways to improve the accuracy through smart selection of preprocessing methods.
+There are great chances that the parameters for pre-processing or even methods of pre-processing are suboptimal. For example, the second sample file (82251504.png) has yielded a terrible score overall. There are definitely ways to improve the accuracy through smart selection of preprocessing methods.
 
 # Autocorrect & Speller
 
