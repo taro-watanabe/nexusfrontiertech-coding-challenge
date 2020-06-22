@@ -1,0 +1,8 @@
+README.rst
+setup.py
+ocrchallenge/__init__.py
+ocrchallenge.egg-info/PKG-INFO
+ocrchallenge.egg-info/SOURCES.txt
+ocrchallenge.egg-info/dependency_links.txt
+ocrchallenge.egg-info/requires.txt
+ocrchallenge.egg-info/top_level.txt
