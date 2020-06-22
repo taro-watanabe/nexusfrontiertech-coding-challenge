@@ -10,7 +10,7 @@ Also, the main Project zipped folder containing the `.py` file as well as `.toml
 
 [OCR.py](OCR.py)
 
-[pyproject.toml](pyproject.toml)
+[pyproject.toml](ocrchallenge/pyproject.toml)
 
 # Coding Environemnt
 
