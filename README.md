@@ -6,11 +6,11 @@ The full task description can be found below.
 
 Also, the main Project zipped folder containing the `.py` file as well as `.toml` file for package management can be found below as well.
 
-[coding_test.pdf](Coding%20Challenge%20OCR%20Machine%208c96ecf889d74c3291bce6648b6fc69b/coding_test.pdf)
+[coding_test.pdf](coding_test.pdf)
 
-[OCR.py](Coding%20Challenge%20OCR%20Machine%208c96ecf889d74c3291bce6648b6fc69b/OCR.py)
+[OCR.py](OCR.py)
 
-[pyproject.toml](Coding%20Challenge%20OCR%20Machine%208c96ecf889d74c3291bce6648b6fc69b/pyproject.toml)
+[pyproject.toml](pyproject.toml)
 
 # Coding Environemnt
 
