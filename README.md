@@ -128,7 +128,7 @@ However, `Autocorrect` was bringing me some good luck. For small errors, the `Sp
 
 The issue I noticed and has space for improvement in the future would be the following  things:
 
-1. **"-" separated words**: Often for longer words, they are forced to have the "-" in te line break. This will be recognized as two words in all the post-processing modules i have tried.
+1. **"-" separated words**: Often for longer words, they are forced to have the "-" in the line break. This will be recognized as two words in all the post-processing modules I have tried.
 2. **Names/Original words**: The names can be recognized to be similar to a known word, and can be swapped .
 3. **links & sensitive characters**: links can be considered a "wrong" line of letters and may be replaced. However this is crucially bad since if any letter is swapped from the link it will be an invalid one.
 4. **Non-characters**: Charts and graphs, symbols and pictures are often mistakenly recognized.
