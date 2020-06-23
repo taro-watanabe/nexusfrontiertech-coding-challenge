@@ -16,11 +16,11 @@ Also, the main Project zipped folder containing the `.py` file as well as `.toml
 
 PC environment : iMac, MacOS 10.13.6 
 
-Used Python IDE here was [Pycharm](https://www.jetbrains.com/pycharm/) by JetBrains, as they have very easy setup for a virtual environment build, including the usage of Poetry.
+Used Python IDE here was [Pycharm](https://www.jetbrains.com/pycharm/) by JetBrains, as they have very easy setup for a virtual environment build, including the usage of `poetry`.
 
 Things done (mostly in order):
 
-- Poetry Install and Venv configuration
+- `poetry` Install and Venv configuration
 - Connection of Venv and Pycharm IDE
 - Installment of homebrew for outside-python packages
 
@@ -37,7 +37,7 @@ The flow of the code goes as follows:
     - wand
     - logging
     - autocorrect
-- Activating and Setup the Click module to operate with CLI
+- Activating and Setup the `click` module to operate with CLI
 
     Options:
 
@@ -56,10 +56,9 @@ The flow of the code goes as follows:
     3. **Errors out if PDF, PNG, JPG, or JPEG not detected**
     4. **OCR process for ordinary image file:**
     4a. Pre-processing
-    4b. Making Guess with Tesseract
+    4b. Making Guess with `pytesseract`
     4c. Post-Processing
-    4d. Wr
-    te to a txt
+    4d. Write to a txt
 
 # Pytesseract and TesseractOCR engine
 
@@ -77,7 +76,7 @@ It is defaulted to English anyways, but since we have a problem with constraint 
 
 ## Reading/Loading Images
 
-all of the reading and loading of the photos or converted photos were done through the OpenCV module, using the following command.
+all of the reading and loading of the photos or converted photos were done through the `OpenCV` module, using the following command.
 
 ```python
 cv2.imread(target_path)
